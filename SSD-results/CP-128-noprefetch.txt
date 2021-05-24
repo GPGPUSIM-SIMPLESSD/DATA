@@ -1,0 +1,545 @@
+SimpleSSD Standalone v2.0
+********** Begin of simulation **********
+Periodic log printout @ tick 10000000000
+read.request_count                      	393.000000          	Read request count
+read.bytes                              	25755648.000000     	Read data size in byte
+read.busy                               	5494851520.000000   	Device busy time when read
+write.request_count                     	0.000000            	Write request count
+write.bytes                             	0.000000            	Write data size in byte
+write.busy                              	0.000000            	Device busy time when write
+request_count                           	393.000000          	Total request count
+bytes                                   	25755648.000000     	Total data size in byte
+busy                                    	5494851520.000000   	Total device busy time
+icl.generic_cache.read.request_count    	786.000000          	Read request count
+icl.generic_cache.read.from_cache       	41.000000           	Read requests that served from cache
+icl.generic_cache.write.request_count   	0.000000            	Write request count
+icl.generic_cache.write.to_cache        	0.000000            	Write requests that served to cache
+icl.generic_cach.cachelines_read        	872.000000          	Number of cachelines fetched due to read
+icl.generic_cache.cachelines_write      	0.000000            	Number of cachelines fetched due to write
+icl.generic_cache.cache_read_miss       	872.000000          	Cache miss due to read
+icl.generic_cache.cache_write_miss      	0.000000            	Cache miss due to write
+icl.generic_cache.cache_read_hit        	41.000000           	Cache hit due to read
+icl.generic_cache.cache_write_hit       	0.000000            	cache hit due to write
+icl.generic_cache.cache_flush           	0.000000            	Number of times cache flushed
+icl.generic_cache.cache_evicted         	746.000000          	Number of times cache eviction occured
+dram.energy                             	338245968.932374    	Total energy comsumed by embedded DRAM (pJ)
+dram.power                              	33.764960           	Total power comsumed by embedded DRAM (mW)
+dram.read.request_count                 	41.000000           	Read request count
+dram.read.bytes                         	1343488.000000      	Read data size in byte
+dram.write.request_count                	872.000000          	Write request count
+dram.write.bytes                        	28573696.000000     	Write data size in byte
+dram.request_count                      	913.000000          	Total request count
+dram.bytes                              	29917184.000000     	Total data size in byte
+ftl.page_mapping.gc.count               	0.000000            	Total GC count
+ftl.page_mapping.gc.reclaimed_blocks    	0.000000            	Total reclaimed blocks in GC
+ftl.page_mapping.gc.superpage_copies    	0.000000            	Total copied valid superpages during GC
+ftl.page_mapping.gc.page_copies         	0.000000            	Total copied valid pages during GC
+ftl.page_mapping.wear_leveling          	-1.000000           	Wear-leveling factor
+pal.energy.read                         	0.000000            	Consumed energy by NAND read operation (uJ)
+pal.energy.program                      	0.000000            	Consumed energy by NAND program operation (uJ)
+pal.energy.erase                        	0.000000            	Consumed energy by NAND erase operation (uJ)
+pal.energy.total                        	0.000000            	Total consumed energy by NAND (uJ)
+pal.power                               	0.000000            	Average power consumed by NAND (uW)
+pal.read.count                          	0.000000            	Total read operation count
+pal.program.count                       	0.000000            	Total program operation count
+pal.erase.count                         	0.000000            	Total erase operation count
+pal.read.bytes                          	0.000000            	Total read operation bytes
+pal.program.bytes                       	0.000000            	Total program operation bytes
+pal.erase.bytes                         	0.000000            	Total erase operation bytes
+pal.read.time.dma0.wait                 	0.000000            	Average dma0 wait time of read
+pal.read.time.dma0                      	0.000000            	Average dma0 time of read
+pal.read.time.mem                       	0.000000            	Average memory operation time of read
+pal.read.time.dma1.wait                 	0.000000            	Average dma1 wait time of read
+pal.read.time.dma1                      	0.000000            	Average dma1 time of read
+pal.read.time.total                     	0.000000            	Average time of read
+pal.program.time.dma0.wait              	0.000000            	Average dma0 wait time of program
+pal.program.time.dma0                   	0.000000            	Average dma0 time of program
+pal.program.time.mem                    	0.000000            	Average memory operation time of program
+pal.program.time.dma1.wait              	0.000000            	Average dma1 wait time of program
+pal.program.time.dma1                   	0.000000            	Average dma1 time of program
+pal.program.time.total                  	0.000000            	Average time of program
+pal.erase.time.dma0.wait                	0.000000            	Average dma0 wait time of erase
+pal.erase.time.dma0                     	0.000000            	Average dma0 time of erase
+pal.erase.time.mem                      	0.000000            	Average memory operation time of erase
+pal.erase.time.dma1.wait                	0.000000            	Average dma1 wait time of erase
+pal.erase.time.dma1                     	0.000000            	Average dma1 time of erase
+pal.erase.time.total                    	0.000000            	Average time of erase
+pal.channel.time.active                 	0.000000            	Average active time of all channels
+pal.die.time.active                     	0.000000            	Average active time of all dies
+cpu.hil0.busy                           	586552500.000000    	CPU for HIL core 0 busy ticks
+cpu.hil0.insts.branch                   	23973.000000        	CPU for HIL core 0 executed branch instructions
+cpu.hil0.insts.load                     	122616.000000       	CPU for HIL core 0 executed load instructions
+cpu.hil0.insts.store                    	40086.000000        	CPU for HIL core 0 executed store instructions
+cpu.hil0.insts.arithmetic               	47160.000000        	CPU for HIL core 0 executed arithmetic instructions
+cpu.hil0.insts.fp                       	0.000000            	CPU for HIL core 0 executed floating point instructions
+cpu.hil0.insts.others                   	786.000000          	CPU for HIL core 0 executed other instructions
+cpu.icl0.busy                           	2046547500.000000   	CPU for ICL core 0 busy ticks
+cpu.icl0.insts.branch                   	73884.000000        	CPU for ICL core 0 executed branch instructions
+cpu.icl0.insts.load                     	452736.000000       	CPU for ICL core 0 executed load instructions
+cpu.icl0.insts.store                    	56985.000000        	CPU for ICL core 0 executed store instructions
+cpu.icl0.insts.arithmetic               	233835.000000       	CPU for ICL core 0 executed arithmetic instructions
+cpu.icl0.insts.fp                       	0.000000            	CPU for ICL core 0 executed floating point instructions
+cpu.icl0.insts.others                   	1179.000000         	CPU for ICL core 0 executed other instructions
+cpu.ftl0.busy                           	259420000.000000    	CPU for FTL core 0 busy ticks
+cpu.ftl0.insts.branch                   	11336.000000        	CPU for FTL core 0 executed branch instructions
+cpu.ftl0.insts.load                     	52320.000000        	CPU for FTL core 0 executed store instructions
+cpu.ftl0.insts.store                    	11336.000000        	CPU for FTL core 0 executed load instructions
+cpu.ftl0.insts.arithmetic               	27032.000000        	CPU for FTL core 0 executed arithmetic instructions
+cpu.ftl0.insts.fp                       	0.000000            	CPU for FTL core 0 executed floating point instructions
+cpu.ftl0.insts.others                   	1744.000000         	CPU for FTL core 0 executed other instructions
+End of log @ tick 10000000000
+Periodic log printout @ tick 20000000000
+read.request_count                      	786.000000          	Read request count
+read.bytes                              	51511296.000000     	Read data size in byte
+read.busy                               	10989746080.000000  	Device busy time when read
+write.request_count                     	0.000000            	Write request count
+write.bytes                             	0.000000            	Write data size in byte
+write.busy                              	0.000000            	Device busy time when write
+request_count                           	786.000000          	Total request count
+bytes                                   	51511296.000000     	Total data size in byte
+busy                                    	10989746080.000000  	Total device busy time
+icl.generic_cache.read.request_count    	1572.000000         	Read request count
+icl.generic_cache.read.from_cache       	41.000000           	Read requests that served from cache
+icl.generic_cache.write.request_count   	0.000000            	Write request count
+icl.generic_cache.write.to_cache        	0.000000            	Write requests that served to cache
+icl.generic_cach.cachelines_read        	1658.000000         	Number of cachelines fetched due to read
+icl.generic_cache.cachelines_write      	0.000000            	Number of cachelines fetched due to write
+icl.generic_cache.cache_read_miss       	1658.000000         	Cache miss due to read
+icl.generic_cache.cache_write_miss      	0.000000            	Cache miss due to write
+icl.generic_cache.cache_read_hit        	41.000000           	Cache hit due to read
+icl.generic_cache.cache_write_hit       	0.000000            	cache hit due to write
+icl.generic_cache.cache_flush           	0.000000            	Number of times cache flushed
+icl.generic_cache.cache_evicted         	1532.000000         	Number of times cache eviction occured
+dram.energy                             	674653667.701618    	Total energy comsumed by embedded DRAM (pJ)
+dram.power                              	33.683659           	Total power comsumed by embedded DRAM (mW)
+dram.read.request_count                 	41.000000           	Read request count
+dram.read.bytes                         	1343488.000000      	Read data size in byte
+dram.write.request_count                	1658.000000         	Write request count
+dram.write.bytes                        	54329344.000000     	Write data size in byte
+dram.request_count                      	1699.000000         	Total request count
+dram.bytes                              	55672832.000000     	Total data size in byte
+ftl.page_mapping.gc.count               	0.000000            	Total GC count
+ftl.page_mapping.gc.reclaimed_blocks    	0.000000            	Total reclaimed blocks in GC
+ftl.page_mapping.gc.superpage_copies    	0.000000            	Total copied valid superpages during GC
+ftl.page_mapping.gc.page_copies         	0.000000            	Total copied valid pages during GC
+ftl.page_mapping.wear_leveling          	-1.000000           	Wear-leveling factor
+pal.energy.read                         	0.000000            	Consumed energy by NAND read operation (uJ)
+pal.energy.program                      	0.000000            	Consumed energy by NAND program operation (uJ)
+pal.energy.erase                        	0.000000            	Consumed energy by NAND erase operation (uJ)
+pal.energy.total                        	0.000000            	Total consumed energy by NAND (uJ)
+pal.power                               	0.000000            	Average power consumed by NAND (uW)
+pal.read.count                          	0.000000            	Total read operation count
+pal.program.count                       	0.000000            	Total program operation count
+pal.erase.count                         	0.000000            	Total erase operation count
+pal.read.bytes                          	0.000000            	Total read operation bytes
+pal.program.bytes                       	0.000000            	Total program operation bytes
+pal.erase.bytes                         	0.000000            	Total erase operation bytes
+pal.read.time.dma0.wait                 	0.000000            	Average dma0 wait time of read
+pal.read.time.dma0                      	0.000000            	Average dma0 time of read
+pal.read.time.mem                       	0.000000            	Average memory operation time of read
+pal.read.time.dma1.wait                 	0.000000            	Average dma1 wait time of read
+pal.read.time.dma1                      	0.000000            	Average dma1 time of read
+pal.read.time.total                     	0.000000            	Average time of read
+pal.program.time.dma0.wait              	0.000000            	Average dma0 wait time of program
+pal.program.time.dma0                   	0.000000            	Average dma0 time of program
+pal.program.time.mem                    	0.000000            	Average memory operation time of program
+pal.program.time.dma1.wait              	0.000000            	Average dma1 wait time of program
+pal.program.time.dma1                   	0.000000            	Average dma1 time of program
+pal.program.time.total                  	0.000000            	Average time of program
+pal.erase.time.dma0.wait                	0.000000            	Average dma0 wait time of erase
+pal.erase.time.dma0                     	0.000000            	Average dma0 time of erase
+pal.erase.time.mem                      	0.000000            	Average memory operation time of erase
+pal.erase.time.dma1.wait                	0.000000            	Average dma1 wait time of erase
+pal.erase.time.dma1                     	0.000000            	Average dma1 time of erase
+pal.erase.time.total                    	0.000000            	Average time of erase
+pal.channel.time.active                 	0.000000            	Average active time of all channels
+pal.die.time.active                     	0.000000            	Average active time of all dies
+cpu.hil0.busy                           	1173105000.000000   	CPU for HIL core 0 busy ticks
+cpu.hil0.insts.branch                   	47946.000000        	CPU for HIL core 0 executed branch instructions
+cpu.hil0.insts.load                     	245232.000000       	CPU for HIL core 0 executed load instructions
+cpu.hil0.insts.store                    	80172.000000        	CPU for HIL core 0 executed store instructions
+cpu.hil0.insts.arithmetic               	94320.000000        	CPU for HIL core 0 executed arithmetic instructions
+cpu.hil0.insts.fp                       	0.000000            	CPU for HIL core 0 executed floating point instructions
+cpu.hil0.insts.others                   	1572.000000         	CPU for HIL core 0 executed other instructions
+cpu.icl0.busy                           	4093095000.000000   	CPU for ICL core 0 busy ticks
+cpu.icl0.insts.branch                   	147768.000000       	CPU for ICL core 0 executed branch instructions
+cpu.icl0.insts.load                     	905472.000000       	CPU for ICL core 0 executed load instructions
+cpu.icl0.insts.store                    	113970.000000       	CPU for ICL core 0 executed store instructions
+cpu.icl0.insts.arithmetic               	467670.000000       	CPU for ICL core 0 executed arithmetic instructions
+cpu.icl0.insts.fp                       	0.000000            	CPU for ICL core 0 executed floating point instructions
+cpu.icl0.insts.others                   	2358.000000         	CPU for ICL core 0 executed other instructions
+cpu.ftl0.busy                           	493255000.000000    	CPU for FTL core 0 busy ticks
+cpu.ftl0.insts.branch                   	21554.000000        	CPU for FTL core 0 executed branch instructions
+cpu.ftl0.insts.load                     	99480.000000        	CPU for FTL core 0 executed store instructions
+cpu.ftl0.insts.store                    	21554.000000        	CPU for FTL core 0 executed load instructions
+cpu.ftl0.insts.arithmetic               	51398.000000        	CPU for FTL core 0 executed arithmetic instructions
+cpu.ftl0.insts.fp                       	0.000000            	CPU for FTL core 0 executed floating point instructions
+cpu.ftl0.insts.others                   	3316.000000         	CPU for FTL core 0 executed other instructions
+End of log @ tick 20000000000
+Periodic log printout @ tick 30000000000
+read.request_count                      	1178.000000         	Read request count
+read.bytes                              	77201408.000000     	Read data size in byte
+read.busy                               	16470643040.000000  	Device busy time when read
+write.request_count                     	0.000000            	Write request count
+write.bytes                             	0.000000            	Write data size in byte
+write.busy                              	0.000000            	Device busy time when write
+request_count                           	1178.000000         	Total request count
+bytes                                   	77201408.000000     	Total data size in byte
+busy                                    	16470643040.000000  	Total device busy time
+icl.generic_cache.read.request_count    	2356.000000         	Read request count
+icl.generic_cache.read.from_cache       	41.000000           	Read requests that served from cache
+icl.generic_cache.write.request_count   	0.000000            	Write request count
+icl.generic_cache.write.to_cache        	0.000000            	Write requests that served to cache
+icl.generic_cach.cachelines_read        	2442.000000         	Number of cachelines fetched due to read
+icl.generic_cache.cachelines_write      	0.000000            	Number of cachelines fetched due to write
+icl.generic_cache.cache_read_miss       	2442.000000         	Cache miss due to read
+icl.generic_cache.cache_write_miss      	0.000000            	Cache miss due to write
+icl.generic_cache.cache_read_hit        	41.000000           	Cache hit due to read
+icl.generic_cache.cache_write_hit       	0.000000            	cache hit due to write
+icl.generic_cache.cache_flush           	0.000000            	Number of times cache flushed
+icl.generic_cache.cache_evicted         	2316.000000         	Number of times cache eviction occured
+dram.energy                             	1010204899.438875   	Total energy comsumed by embedded DRAM (pJ)
+dram.power                              	33.656594           	Total power comsumed by embedded DRAM (mW)
+dram.read.request_count                 	41.000000           	Read request count
+dram.read.bytes                         	1343488.000000      	Read data size in byte
+dram.write.request_count                	2442.000000         	Write request count
+dram.write.bytes                        	80019456.000000     	Write data size in byte
+dram.request_count                      	2483.000000         	Total request count
+dram.bytes                              	81362944.000000     	Total data size in byte
+ftl.page_mapping.gc.count               	0.000000            	Total GC count
+ftl.page_mapping.gc.reclaimed_blocks    	0.000000            	Total reclaimed blocks in GC
+ftl.page_mapping.gc.superpage_copies    	0.000000            	Total copied valid superpages during GC
+ftl.page_mapping.gc.page_copies         	0.000000            	Total copied valid pages during GC
+ftl.page_mapping.wear_leveling          	-1.000000           	Wear-leveling factor
+pal.energy.read                         	0.000000            	Consumed energy by NAND read operation (uJ)
+pal.energy.program                      	0.000000            	Consumed energy by NAND program operation (uJ)
+pal.energy.erase                        	0.000000            	Consumed energy by NAND erase operation (uJ)
+pal.energy.total                        	0.000000            	Total consumed energy by NAND (uJ)
+pal.power                               	0.000000            	Average power consumed by NAND (uW)
+pal.read.count                          	0.000000            	Total read operation count
+pal.program.count                       	0.000000            	Total program operation count
+pal.erase.count                         	0.000000            	Total erase operation count
+pal.read.bytes                          	0.000000            	Total read operation bytes
+pal.program.bytes                       	0.000000            	Total program operation bytes
+pal.erase.bytes                         	0.000000            	Total erase operation bytes
+pal.read.time.dma0.wait                 	0.000000            	Average dma0 wait time of read
+pal.read.time.dma0                      	0.000000            	Average dma0 time of read
+pal.read.time.mem                       	0.000000            	Average memory operation time of read
+pal.read.time.dma1.wait                 	0.000000            	Average dma1 wait time of read
+pal.read.time.dma1                      	0.000000            	Average dma1 time of read
+pal.read.time.total                     	0.000000            	Average time of read
+pal.program.time.dma0.wait              	0.000000            	Average dma0 wait time of program
+pal.program.time.dma0                   	0.000000            	Average dma0 time of program
+pal.program.time.mem                    	0.000000            	Average memory operation time of program
+pal.program.time.dma1.wait              	0.000000            	Average dma1 wait time of program
+pal.program.time.dma1                   	0.000000            	Average dma1 time of program
+pal.program.time.total                  	0.000000            	Average time of program
+pal.erase.time.dma0.wait                	0.000000            	Average dma0 wait time of erase
+pal.erase.time.dma0                     	0.000000            	Average dma0 time of erase
+pal.erase.time.mem                      	0.000000            	Average memory operation time of erase
+pal.erase.time.dma1.wait                	0.000000            	Average dma1 wait time of erase
+pal.erase.time.dma1                     	0.000000            	Average dma1 time of erase
+pal.erase.time.total                    	0.000000            	Average time of erase
+pal.channel.time.active                 	0.000000            	Average active time of all channels
+pal.die.time.active                     	0.000000            	Average active time of all dies
+cpu.hil0.busy                           	1758165000.000000   	CPU for HIL core 0 busy ticks
+cpu.hil0.insts.branch                   	71858.000000        	CPU for HIL core 0 executed branch instructions
+cpu.hil0.insts.load                     	367536.000000       	CPU for HIL core 0 executed load instructions
+cpu.hil0.insts.store                    	120156.000000       	CPU for HIL core 0 executed store instructions
+cpu.hil0.insts.arithmetic               	141360.000000       	CPU for HIL core 0 executed arithmetic instructions
+cpu.hil0.insts.fp                       	0.000000            	CPU for HIL core 0 executed floating point instructions
+cpu.hil0.insts.others                   	2356.000000         	CPU for HIL core 0 executed other instructions
+cpu.icl0.busy                           	6134435000.000000   	CPU for ICL core 0 busy ticks
+cpu.icl0.insts.branch                   	221464.000000       	CPU for ICL core 0 executed branch instructions
+cpu.icl0.insts.load                     	1357056.000000      	CPU for ICL core 0 executed load instructions
+cpu.icl0.insts.store                    	170810.000000       	CPU for ICL core 0 executed store instructions
+cpu.icl0.insts.arithmetic               	700910.000000       	CPU for ICL core 0 executed arithmetic instructions
+cpu.icl0.insts.fp                       	0.000000            	CPU for ICL core 0 executed floating point instructions
+cpu.icl0.insts.others                   	3534.000000         	CPU for ICL core 0 executed other instructions
+cpu.ftl0.busy                           	726495000.000000    	CPU for FTL core 0 busy ticks
+cpu.ftl0.insts.branch                   	31746.000000        	CPU for FTL core 0 executed branch instructions
+cpu.ftl0.insts.load                     	146520.000000       	CPU for FTL core 0 executed store instructions
+cpu.ftl0.insts.store                    	31746.000000        	CPU for FTL core 0 executed load instructions
+cpu.ftl0.insts.arithmetic               	75702.000000        	CPU for FTL core 0 executed arithmetic instructions
+cpu.ftl0.insts.fp                       	0.000000            	CPU for FTL core 0 executed floating point instructions
+cpu.ftl0.insts.others                   	4884.000000         	CPU for FTL core 0 executed other instructions
+End of log @ tick 30000000000
+Periodic log printout @ tick 40000000000
+read.request_count                      	1571.000000         	Read request count
+read.bytes                              	102957056.000000    	Read data size in byte
+read.busy                               	21965506080.000000  	Device busy time when read
+write.request_count                     	0.000000            	Write request count
+write.bytes                             	0.000000            	Write data size in byte
+write.busy                              	0.000000            	Device busy time when write
+request_count                           	1571.000000         	Total request count
+bytes                                   	102957056.000000    	Total data size in byte
+busy                                    	21965506080.000000  	Total device busy time
+icl.generic_cache.read.request_count    	3142.000000         	Read request count
+icl.generic_cache.read.from_cache       	41.000000           	Read requests that served from cache
+icl.generic_cache.write.request_count   	0.000000            	Write request count
+icl.generic_cache.write.to_cache        	0.000000            	Write requests that served to cache
+icl.generic_cach.cachelines_read        	3228.000000         	Number of cachelines fetched due to read
+icl.generic_cache.cachelines_write      	0.000000            	Number of cachelines fetched due to write
+icl.generic_cache.cache_read_miss       	3228.000000         	Cache miss due to read
+icl.generic_cache.cache_write_miss      	0.000000            	Cache miss due to write
+icl.generic_cache.cache_read_hit        	41.000000           	Cache hit due to read
+icl.generic_cache.cache_write_hit       	0.000000            	cache hit due to write
+icl.generic_cache.cache_flush           	0.000000            	Number of times cache flushed
+icl.generic_cache.cache_evicted         	3102.000000         	Number of times cache eviction occured
+dram.energy                             	1346611578.208036   	Total energy comsumed by embedded DRAM (pJ)
+dram.power                              	33.643017           	Total power comsumed by embedded DRAM (mW)
+dram.read.request_count                 	41.000000           	Read request count
+dram.read.bytes                         	1343488.000000      	Read data size in byte
+dram.write.request_count                	3228.000000         	Write request count
+dram.write.bytes                        	105775104.000000    	Write data size in byte
+dram.request_count                      	3269.000000         	Total request count
+dram.bytes                              	107118592.000000    	Total data size in byte
+ftl.page_mapping.gc.count               	0.000000            	Total GC count
+ftl.page_mapping.gc.reclaimed_blocks    	0.000000            	Total reclaimed blocks in GC
+ftl.page_mapping.gc.superpage_copies    	0.000000            	Total copied valid superpages during GC
+ftl.page_mapping.gc.page_copies         	0.000000            	Total copied valid pages during GC
+ftl.page_mapping.wear_leveling          	-1.000000           	Wear-leveling factor
+pal.energy.read                         	0.000000            	Consumed energy by NAND read operation (uJ)
+pal.energy.program                      	0.000000            	Consumed energy by NAND program operation (uJ)
+pal.energy.erase                        	0.000000            	Consumed energy by NAND erase operation (uJ)
+pal.energy.total                        	0.000000            	Total consumed energy by NAND (uJ)
+pal.power                               	0.000000            	Average power consumed by NAND (uW)
+pal.read.count                          	0.000000            	Total read operation count
+pal.program.count                       	0.000000            	Total program operation count
+pal.erase.count                         	0.000000            	Total erase operation count
+pal.read.bytes                          	0.000000            	Total read operation bytes
+pal.program.bytes                       	0.000000            	Total program operation bytes
+pal.erase.bytes                         	0.000000            	Total erase operation bytes
+pal.read.time.dma0.wait                 	0.000000            	Average dma0 wait time of read
+pal.read.time.dma0                      	0.000000            	Average dma0 time of read
+pal.read.time.mem                       	0.000000            	Average memory operation time of read
+pal.read.time.dma1.wait                 	0.000000            	Average dma1 wait time of read
+pal.read.time.dma1                      	0.000000            	Average dma1 time of read
+pal.read.time.total                     	0.000000            	Average time of read
+pal.program.time.dma0.wait              	0.000000            	Average dma0 wait time of program
+pal.program.time.dma0                   	0.000000            	Average dma0 time of program
+pal.program.time.mem                    	0.000000            	Average memory operation time of program
+pal.program.time.dma1.wait              	0.000000            	Average dma1 wait time of program
+pal.program.time.dma1                   	0.000000            	Average dma1 time of program
+pal.program.time.total                  	0.000000            	Average time of program
+pal.erase.time.dma0.wait                	0.000000            	Average dma0 wait time of erase
+pal.erase.time.dma0                     	0.000000            	Average dma0 time of erase
+pal.erase.time.mem                      	0.000000            	Average memory operation time of erase
+pal.erase.time.dma1.wait                	0.000000            	Average dma1 wait time of erase
+pal.erase.time.dma1                     	0.000000            	Average dma1 time of erase
+pal.erase.time.total                    	0.000000            	Average time of erase
+pal.channel.time.active                 	0.000000            	Average active time of all channels
+pal.die.time.active                     	0.000000            	Average active time of all dies
+cpu.hil0.busy                           	2344717500.000000   	CPU for HIL core 0 busy ticks
+cpu.hil0.insts.branch                   	95831.000000        	CPU for HIL core 0 executed branch instructions
+cpu.hil0.insts.load                     	490152.000000       	CPU for HIL core 0 executed load instructions
+cpu.hil0.insts.store                    	160242.000000       	CPU for HIL core 0 executed store instructions
+cpu.hil0.insts.arithmetic               	188520.000000       	CPU for HIL core 0 executed arithmetic instructions
+cpu.hil0.insts.fp                       	0.000000            	CPU for HIL core 0 executed floating point instructions
+cpu.hil0.insts.others                   	3142.000000         	CPU for HIL core 0 executed other instructions
+cpu.icl0.busy                           	8180982500.000000   	CPU for ICL core 0 busy ticks
+cpu.icl0.insts.branch                   	295348.000000       	CPU for ICL core 0 executed branch instructions
+cpu.icl0.insts.load                     	1809792.000000      	CPU for ICL core 0 executed load instructions
+cpu.icl0.insts.store                    	227795.000000       	CPU for ICL core 0 executed store instructions
+cpu.icl0.insts.arithmetic               	934745.000000       	CPU for ICL core 0 executed arithmetic instructions
+cpu.icl0.insts.fp                       	0.000000            	CPU for ICL core 0 executed floating point instructions
+cpu.icl0.insts.others                   	4713.000000         	CPU for ICL core 0 executed other instructions
+cpu.ftl0.busy                           	960330000.000000    	CPU for FTL core 0 busy ticks
+cpu.ftl0.insts.branch                   	41964.000000        	CPU for FTL core 0 executed branch instructions
+cpu.ftl0.insts.load                     	193680.000000       	CPU for FTL core 0 executed store instructions
+cpu.ftl0.insts.store                    	41964.000000        	CPU for FTL core 0 executed load instructions
+cpu.ftl0.insts.arithmetic               	100068.000000       	CPU for FTL core 0 executed arithmetic instructions
+cpu.ftl0.insts.fp                       	0.000000            	CPU for FTL core 0 executed floating point instructions
+cpu.ftl0.insts.others                   	6456.000000         	CPU for FTL core 0 executed other instructions
+End of log @ tick 40000000000
+Periodic log printout @ tick 50000000000
+read.request_count                      	1963.000000         	Read request count
+read.bytes                              	128647168.000000    	Read data size in byte
+read.busy                               	27446387360.000000  	Device busy time when read
+write.request_count                     	0.000000            	Write request count
+write.bytes                             	0.000000            	Write data size in byte
+write.busy                              	0.000000            	Device busy time when write
+request_count                           	1963.000000         	Total request count
+bytes                                   	128647168.000000    	Total data size in byte
+busy                                    	27446387360.000000  	Total device busy time
+icl.generic_cache.read.request_count    	3926.000000         	Read request count
+icl.generic_cache.read.from_cache       	41.000000           	Read requests that served from cache
+icl.generic_cache.write.request_count   	0.000000            	Write request count
+icl.generic_cache.write.to_cache        	0.000000            	Write requests that served to cache
+icl.generic_cach.cachelines_read        	4012.000000         	Number of cachelines fetched due to read
+icl.generic_cache.cachelines_write      	0.000000            	Number of cachelines fetched due to write
+icl.generic_cache.cache_read_miss       	4012.000000         	Cache miss due to read
+icl.generic_cache.cache_write_miss      	0.000000            	Cache miss due to write
+icl.generic_cache.cache_read_hit        	41.000000           	Cache hit due to read
+icl.generic_cache.cache_write_hit       	0.000000            	cache hit due to write
+icl.generic_cache.cache_flush           	0.000000            	Number of times cache flushed
+icl.generic_cache.cache_evicted         	3886.000000         	Number of times cache eviction occured
+dram.energy                             	1682162279.545203   	Total energy comsumed by embedded DRAM (pJ)
+dram.power                              	33.634889           	Total power comsumed by embedded DRAM (mW)
+dram.read.request_count                 	41.000000           	Read request count
+dram.read.bytes                         	1343488.000000      	Read data size in byte
+dram.write.request_count                	4012.000000         	Write request count
+dram.write.bytes                        	131465216.000000    	Write data size in byte
+dram.request_count                      	4053.000000         	Total request count
+dram.bytes                              	132808704.000000    	Total data size in byte
+ftl.page_mapping.gc.count               	0.000000            	Total GC count
+ftl.page_mapping.gc.reclaimed_blocks    	0.000000            	Total reclaimed blocks in GC
+ftl.page_mapping.gc.superpage_copies    	0.000000            	Total copied valid superpages during GC
+ftl.page_mapping.gc.page_copies         	0.000000            	Total copied valid pages during GC
+ftl.page_mapping.wear_leveling          	-1.000000           	Wear-leveling factor
+pal.energy.read                         	0.000000            	Consumed energy by NAND read operation (uJ)
+pal.energy.program                      	0.000000            	Consumed energy by NAND program operation (uJ)
+pal.energy.erase                        	0.000000            	Consumed energy by NAND erase operation (uJ)
+pal.energy.total                        	0.000000            	Total consumed energy by NAND (uJ)
+pal.power                               	0.000000            	Average power consumed by NAND (uW)
+pal.read.count                          	0.000000            	Total read operation count
+pal.program.count                       	0.000000            	Total program operation count
+pal.erase.count                         	0.000000            	Total erase operation count
+pal.read.bytes                          	0.000000            	Total read operation bytes
+pal.program.bytes                       	0.000000            	Total program operation bytes
+pal.erase.bytes                         	0.000000            	Total erase operation bytes
+pal.read.time.dma0.wait                 	0.000000            	Average dma0 wait time of read
+pal.read.time.dma0                      	0.000000            	Average dma0 time of read
+pal.read.time.mem                       	0.000000            	Average memory operation time of read
+pal.read.time.dma1.wait                 	0.000000            	Average dma1 wait time of read
+pal.read.time.dma1                      	0.000000            	Average dma1 time of read
+pal.read.time.total                     	0.000000            	Average time of read
+pal.program.time.dma0.wait              	0.000000            	Average dma0 wait time of program
+pal.program.time.dma0                   	0.000000            	Average dma0 time of program
+pal.program.time.mem                    	0.000000            	Average memory operation time of program
+pal.program.time.dma1.wait              	0.000000            	Average dma1 wait time of program
+pal.program.time.dma1                   	0.000000            	Average dma1 time of program
+pal.program.time.total                  	0.000000            	Average time of program
+pal.erase.time.dma0.wait                	0.000000            	Average dma0 wait time of erase
+pal.erase.time.dma0                     	0.000000            	Average dma0 time of erase
+pal.erase.time.mem                      	0.000000            	Average memory operation time of erase
+pal.erase.time.dma1.wait                	0.000000            	Average dma1 wait time of erase
+pal.erase.time.dma1                     	0.000000            	Average dma1 time of erase
+pal.erase.time.total                    	0.000000            	Average time of erase
+pal.channel.time.active                 	0.000000            	Average active time of all channels
+pal.die.time.active                     	0.000000            	Average active time of all dies
+cpu.hil0.busy                           	2929777500.000000   	CPU for HIL core 0 busy ticks
+cpu.hil0.insts.branch                   	119743.000000       	CPU for HIL core 0 executed branch instructions
+cpu.hil0.insts.load                     	612456.000000       	CPU for HIL core 0 executed load instructions
+cpu.hil0.insts.store                    	200226.000000       	CPU for HIL core 0 executed store instructions
+cpu.hil0.insts.arithmetic               	235560.000000       	CPU for HIL core 0 executed arithmetic instructions
+cpu.hil0.insts.fp                       	0.000000            	CPU for HIL core 0 executed floating point instructions
+cpu.hil0.insts.others                   	3926.000000         	CPU for HIL core 0 executed other instructions
+cpu.icl0.busy                           	10222322500.000000  	CPU for ICL core 0 busy ticks
+cpu.icl0.insts.branch                   	369044.000000       	CPU for ICL core 0 executed branch instructions
+cpu.icl0.insts.load                     	2261376.000000      	CPU for ICL core 0 executed load instructions
+cpu.icl0.insts.store                    	284635.000000       	CPU for ICL core 0 executed store instructions
+cpu.icl0.insts.arithmetic               	1167985.000000      	CPU for ICL core 0 executed arithmetic instructions
+cpu.icl0.insts.fp                       	0.000000            	CPU for ICL core 0 executed floating point instructions
+cpu.icl0.insts.others                   	5889.000000         	CPU for ICL core 0 executed other instructions
+cpu.ftl0.busy                           	1193570000.000000   	CPU for FTL core 0 busy ticks
+cpu.ftl0.insts.branch                   	52156.000000        	CPU for FTL core 0 executed branch instructions
+cpu.ftl0.insts.load                     	240720.000000       	CPU for FTL core 0 executed store instructions
+cpu.ftl0.insts.store                    	52156.000000        	CPU for FTL core 0 executed load instructions
+cpu.ftl0.insts.arithmetic               	124372.000000       	CPU for FTL core 0 executed arithmetic instructions
+cpu.ftl0.insts.fp                       	0.000000            	CPU for FTL core 0 executed floating point instructions
+cpu.ftl0.insts.others                   	8024.000000         	CPU for FTL core 0 executed other instructions
+End of log @ tick 50000000000
+Periodic log printout @ tick 52951188300
+read.request_count                      	2079.000000         	Read request count
+read.bytes                              	136249344.000000    	Read data size in byte
+read.busy                               	29068280800.000000  	Device busy time when read
+write.request_count                     	0.000000            	Write request count
+write.bytes                             	0.000000            	Write data size in byte
+write.busy                              	0.000000            	Device busy time when write
+request_count                           	2079.000000         	Total request count
+bytes                                   	136249344.000000    	Total data size in byte
+busy                                    	29068280800.000000  	Total device busy time
+icl.generic_cache.read.request_count    	4158.000000         	Read request count
+icl.generic_cache.read.from_cache       	41.000000           	Read requests that served from cache
+icl.generic_cache.write.request_count   	0.000000            	Write request count
+icl.generic_cache.write.to_cache        	0.000000            	Write requests that served to cache
+icl.generic_cach.cachelines_read        	4244.000000         	Number of cachelines fetched due to read
+icl.generic_cache.cachelines_write      	0.000000            	Number of cachelines fetched due to write
+icl.generic_cache.cache_read_miss       	4244.000000         	Cache miss due to read
+icl.generic_cache.cache_write_miss      	0.000000            	Cache miss due to write
+icl.generic_cache.cache_read_hit        	41.000000           	Cache hit due to read
+icl.generic_cache.cache_write_hit       	0.000000            	cache hit due to write
+icl.generic_cache.cache_flush           	0.000000            	Number of times cache flushed
+icl.generic_cache.cache_evicted         	4118.000000         	Number of times cache eviction occured
+dram.energy                             	1781457905.655181   	Total energy comsumed by embedded DRAM (pJ)
+dram.power                              	33.633071           	Total power comsumed by embedded DRAM (mW)
+dram.read.request_count                 	41.000000           	Read request count
+dram.read.bytes                         	1343488.000000      	Read data size in byte
+dram.write.request_count                	4244.000000         	Write request count
+dram.write.bytes                        	139067392.000000    	Write data size in byte
+dram.request_count                      	4285.000000         	Total request count
+dram.bytes                              	140410880.000000    	Total data size in byte
+ftl.page_mapping.gc.count               	0.000000            	Total GC count
+ftl.page_mapping.gc.reclaimed_blocks    	0.000000            	Total reclaimed blocks in GC
+ftl.page_mapping.gc.superpage_copies    	0.000000            	Total copied valid superpages during GC
+ftl.page_mapping.gc.page_copies         	0.000000            	Total copied valid pages during GC
+ftl.page_mapping.wear_leveling          	-1.000000           	Wear-leveling factor
+pal.energy.read                         	0.000000            	Consumed energy by NAND read operation (uJ)
+pal.energy.program                      	0.000000            	Consumed energy by NAND program operation (uJ)
+pal.energy.erase                        	0.000000            	Consumed energy by NAND erase operation (uJ)
+pal.energy.total                        	0.000000            	Total consumed energy by NAND (uJ)
+pal.power                               	0.000000            	Average power consumed by NAND (uW)
+pal.read.count                          	0.000000            	Total read operation count
+pal.program.count                       	0.000000            	Total program operation count
+pal.erase.count                         	0.000000            	Total erase operation count
+pal.read.bytes                          	0.000000            	Total read operation bytes
+pal.program.bytes                       	0.000000            	Total program operation bytes
+pal.erase.bytes                         	0.000000            	Total erase operation bytes
+pal.read.time.dma0.wait                 	0.000000            	Average dma0 wait time of read
+pal.read.time.dma0                      	0.000000            	Average dma0 time of read
+pal.read.time.mem                       	0.000000            	Average memory operation time of read
+pal.read.time.dma1.wait                 	0.000000            	Average dma1 wait time of read
+pal.read.time.dma1                      	0.000000            	Average dma1 time of read
+pal.read.time.total                     	0.000000            	Average time of read
+pal.program.time.dma0.wait              	0.000000            	Average dma0 wait time of program
+pal.program.time.dma0                   	0.000000            	Average dma0 time of program
+pal.program.time.mem                    	0.000000            	Average memory operation time of program
+pal.program.time.dma1.wait              	0.000000            	Average dma1 wait time of program
+pal.program.time.dma1                   	0.000000            	Average dma1 time of program
+pal.program.time.total                  	0.000000            	Average time of program
+pal.erase.time.dma0.wait                	0.000000            	Average dma0 wait time of erase
+pal.erase.time.dma0                     	0.000000            	Average dma0 time of erase
+pal.erase.time.mem                      	0.000000            	Average memory operation time of erase
+pal.erase.time.dma1.wait                	0.000000            	Average dma1 wait time of erase
+pal.erase.time.dma1                     	0.000000            	Average dma1 time of erase
+pal.erase.time.total                    	0.000000            	Average time of erase
+pal.channel.time.active                 	0.000000            	Average active time of all channels
+pal.die.time.active                     	0.000000            	Average active time of all dies
+cpu.hil0.busy                           	3102907500.000000   	CPU for HIL core 0 busy ticks
+cpu.hil0.insts.branch                   	126819.000000       	CPU for HIL core 0 executed branch instructions
+cpu.hil0.insts.load                     	648648.000000       	CPU for HIL core 0 executed load instructions
+cpu.hil0.insts.store                    	212058.000000       	CPU for HIL core 0 executed store instructions
+cpu.hil0.insts.arithmetic               	249480.000000       	CPU for HIL core 0 executed arithmetic instructions
+cpu.hil0.insts.fp                       	0.000000            	CPU for HIL core 0 executed floating point instructions
+cpu.hil0.insts.others                   	4158.000000         	CPU for HIL core 0 executed other instructions
+cpu.icl0.busy                           	10826392500.000000  	CPU for ICL core 0 busy ticks
+cpu.icl0.insts.branch                   	390852.000000       	CPU for ICL core 0 executed branch instructions
+cpu.icl0.insts.load                     	2395008.000000      	CPU for ICL core 0 executed load instructions
+cpu.icl0.insts.store                    	301455.000000       	CPU for ICL core 0 executed store instructions
+cpu.icl0.insts.arithmetic               	1237005.000000      	CPU for ICL core 0 executed arithmetic instructions
+cpu.icl0.insts.fp                       	0.000000            	CPU for ICL core 0 executed floating point instructions
+cpu.icl0.insts.others                   	6237.000000         	CPU for ICL core 0 executed other instructions
+cpu.ftl0.busy                           	1262590000.000000   	CPU for FTL core 0 busy ticks
+cpu.ftl0.insts.branch                   	55172.000000        	CPU for FTL core 0 executed branch instructions
+cpu.ftl0.insts.load                     	254640.000000       	CPU for FTL core 0 executed store instructions
+cpu.ftl0.insts.store                    	55172.000000        	CPU for FTL core 0 executed load instructions
+cpu.ftl0.insts.arithmetic               	131564.000000       	CPU for FTL core 0 executed arithmetic instructions
+cpu.ftl0.insts.fp                       	0.000000            	CPU for FTL core 0 executed floating point instructions
+cpu.ftl0.insts.others                   	8488.000000         	CPU for FTL core 0 executed other instructions
+End of log @ tick 52951188300
+[2K                                                           *** Statistics of Trace Replayer ***
+Tick: 52951188300
+Time (ps): 0 - 52951188300 (52951188300)
+I/O (bytes): 0 (0.000000 B/s)
+I/O (counts): 2079 (Read: 2079, Write: 0)
+*** End of statistics ***
+*** Statistics of Block I/O Entry ***
+Latency (ns): min=15472.580000, max=15474.420000, avg=15474.357047, stdev=489342.120163
+*** End of statistics ***
+*** Statistics of Event Engine ***
+Simulation Tick (ps): 52951188300
+Host time duration (sec): 14.710401
+Event handled: 6242 (424.325632 ops)
+*** End of statistics ***
+End of simulation @ tick 52951188300
